@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey File</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<!--page with questions and form-->
+
+    <style>
+        /*will place all styling here*/
+        Body {background-color: #F0F8FF;}
+    </style>
+    
+    <body>
+    
+        <div class="container">
+    
+            <h2>Tell Us all About You</h2>
+            <hr>
+    
+            
+            <h4>Name *Required*</h4>
+            <input type="text" id="name" class="form-control" required>
+    
+            <h4>Link a Photo of Yourself *Required*</h4>
+            <input type="text" id="photo" class="form-control" required>
+    
+            <hr>
+    
+            <h3>
+                <strong>Question 1</strong>
+            </h3>
+            
+            <h4>An ideal first date would be attending Monster Jam</h4>
+            <select class="chosen-select" id="q1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+            <h3>
+                <strong>Question 2</strong>
+            </h3>
+            <h4>96' Bulls were the most dominant NBA team of all time</h4>
+            <select class="chosen-select" id="q2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+    
+            <h3>
+                <strong>Question 3</strong>
+            </h3>
+            <h4>Following your dreams is most important in life</h4>
+            <select class="chosen-select" id="q3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+    
+            <h3>
+                <strong>Question 4</strong>
+            </h3>
+            <h4>Ive watched Planet Earth more than the average person</h4>
+            <select class="chosen-select" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+    
+            <h3>
+                <strong>Question 5</strong>
+            </h3>
+            <h4>Not considering getting a cat or dog in the future but snakes and tarantulas are A-OK</h4>
+            <select class="chosen-select" id="q5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+    
+            <h3>
+                <strong>Question 6</strong>
+            </h3>
+            <h4>Taco Bell breakfast menu is superior to the other fast food options</h4>
+            <select class="chosen-select" id="q6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+    
+            <h3>
+                <strong>Question 7</strong>
+            </h3>
+            <h4>I put more belief into a spicy take than a well thought out and researched argument</h4>
+            <select class="chosen-select" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+            <h3>
+                <strong>Question 8</strong>
+            </h3>
+            <h4>Mosquitos</h4>
+            <select class="chosen-select" id="q8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+            <h3>
+                <strong>Question 9</strong>
+            </h3>
+            <h4>1991 Point Break > 2015 Point Break</h4>
+            <select class="chosen-select" id="q9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+            <h3>
+                <strong>Question 10</strong>
+            </h3>
+            <h4>It would be nice if all water fountains dispensed Fireball Cinnamon Whiskey® instead. Even if it meant there being absolutely no water fountains</h4>
+            <select class="chosen-select" id="q10">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+    
+            <br>
+            <br>
+    
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-info" id="submit">
+                Submit Your Answers!</button>
+    
+</body>
+</html>
